@@ -1,4 +1,4 @@
-# ObjectInteroperability
+# Object Interoperability
 C++ DLL / COM / .NET Interoperability, managed vs unmanaged code, cross library function calling, methods, and function callbacks
 
 This is a sample showing interoperability between C++ Object DLLs, COM objects, and C# .NET methods. This uses advanced techniques, between managed and unmananged code.
