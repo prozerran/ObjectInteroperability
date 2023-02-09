@@ -1,3 +1,16 @@
+
+
+# Update Feb 9, 2023
+After many years of negligence, I'll finally updated the project. Here are the highlights
+- Removed all COM and COM related projects and dependencies
+- Removed any setup or installer
+- Updated the remaining projects to be able to run under latest VS2022
+
+COM and related projects just weren't working with the latest VS. The code is still there, if you can make it work, please let me know.
+I've also ignored the Java JNI and Python scrypts to make work again.
+
+
+
 # Object Interoperability
 C++ DLL / COM / .NET Interoperability, managed vs unmanaged code, cross library function calling, methods, and function callbacks
 

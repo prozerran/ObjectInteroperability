@@ -16,22 +16,22 @@ echo.
 echo *** Testing [C# .NET]
 .\ObjectNetTest_CSharp.exe
 
-echo.
-echo *** Testing [COM Static]
-.\ObjectComTest_Static.exe
+REM echo.
+REM echo *** Testing [COM Static]
+REM .\ObjectComTest_Static.exe
 
-echo.
-echo *** Testing [COM Dynamic]
-.\ObjectComTest_Dynamic.exe
+REM echo.
+REM echo *** Testing [COM Dynamic]
+REM .\ObjectComTest_Dynamic.exe
 
-echo.
-echo *** Testing [COM CSharp]
-.\ObjectComTest_CSharp.exe
+REM echo.
+REM echo *** Testing [COM CSharp]
+REM .\ObjectComTest_CSharp.exe
 
-echo.
-echo *** Testing [Java JNI]
-.\ObjectJniTest_Java.bat
+REM echo.
+REM echo *** Testing [Java JNI]
+REM .\ObjectJniTest_Java.bat
 
-echo.
-echo *** Testing [Python]
-.\ObjectDllTest_Python.bat
+REM echo.
+REM echo *** Testing [Python]
+REM .\ObjectDllTest_Python.bat

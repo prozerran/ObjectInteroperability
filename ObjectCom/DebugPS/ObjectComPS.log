@@ -1,0 +1,8 @@
+﻿  Checking for required files
+EXEC : error : MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: The command "if exist dlldata.c goto :END
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: echo Error: MIDL will not generate DLLDATA.C unless you have at least 1 interface in the main project.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: Exit 1
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: :END
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: 
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(149,5): error MSB3073: :VCEnd" exited with code 1.

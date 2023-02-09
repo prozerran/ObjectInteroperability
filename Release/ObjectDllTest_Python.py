@@ -1,10 +1,19 @@
-from ctypes import *
+# from ctypes import *
+
+import ctypes
+import os.path
+
 
 # Use cdll for functions compiled with __cdecl
 #
 
 # Import the DLL library
-ObjectDllLibrary  = cdll.LoadLibrary('ObjectDll.dll')
+# os.environ['PATH'] = os.path.dirname(__file__) + ';' + os.environ['PATH']
+# ObjectDllLibrary  = cdll.LoadLibrary('ObjectDll.dll')
+
+Dll_Name = "ObjectDll.dll"
+Dll_Path = os.path.dirname(os.path.abspath(__file__)) + os.path.sep + Dll_Name
+ObjectDllLibrary = ctypes.CDLL(Dll_Path)
 
 # Load the function from the DLL
 ObjectDllMethod = ObjectDllLibrary.ObjectDllMethod
@@ -20,7 +29,7 @@ ObjectDllMethod()
 ObjectDllFunction('', retstr, maxint)
 
 # print result
-print retstr.value
+print(retstr.value)
 
 """
 # Function callback
